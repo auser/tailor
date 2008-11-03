@@ -1,0 +1,24 @@
+.js .nojs{display:none;}
+
+html, body {margin:0;padding:0;}
+body {background:#fff;color:#222;font:62.5% "Helvetica Neue",Helvetica,Arial,sans-serif;text-align:center;}
+#doc {text-align:left;margin:0 auto;font-size:2em;width:48em;}
+#header {text-align:center;margin:2em 0;}
+#header * {margin:0;}
+#header h1 {color:#333;}
+h1, h2, h3 {letter-spacing:-1px;}
+
+.source {font-size:.8em;color:#000;}
+pre {font-size:.9em;background-color:#ffc;overflow-x:auto;}
+pre em {color:#009;}
+pre b {color:#900;}
+pre strong {color:#099;}
+pre i,
+pre i *{color:#090;}
+
+#window {border:2px solid #000;width:100%;height:20em;overflow:auto;}
+#window ol {margin:0px;padding:5px;list-style:none;}
+#window li {border-bottom:1px solid #eee;padding:5px 10px;}
+#window .error {color:#f00;}
+
+#footer {font-size:0.6em;}
