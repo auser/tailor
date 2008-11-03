@@ -1,3 +1,3 @@
 #!/bin/sh
 cd `dirname $0`
-exec erl -pa $PWD/ebin $PWD/deps/*/ebin -boot start_sasl -s tailor
+exec erl -pa $PWD/ebin $PWD/deps/*/ebin -boot start_sasl -s tailor -noshell -detached -heart
