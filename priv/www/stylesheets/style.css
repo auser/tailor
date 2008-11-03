@@ -16,7 +16,7 @@ pre strong {color:#099;}
 pre i,
 pre i *{color:#090;}
 
-#window {border:2px solid #000;width:100%;height:20em;overflow:auto;}
+#window {border:2px solid #000;width:100%;height:20em;overflow:auto;font-size:1em;}
 #window ol {margin:0px;padding:5px;list-style:none;}
 #window li {border-bottom:1px solid #eee;padding:5px 10px;}
 #window .error {color:#f00;}
