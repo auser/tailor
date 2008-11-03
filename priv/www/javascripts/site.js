@@ -9,7 +9,7 @@ $(document).ready(function() {
       $(this).triggerHandler("poll");
       
   }).bind("append", function(event, message) {
-      $("ol", this).prepend([
+      $("ol", this).append([
           '<li>',
           message,
           "</li>"].join(""));
